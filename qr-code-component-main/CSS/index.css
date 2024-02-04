@@ -1,0 +1,32 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+
+}
+.container{
+    display:grid;
+    place-items: center;
+    height: 100vh;
+}
+.box{
+    text-align: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
+.qr{
+    width: 300px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    font-family: 'Outfit', Arial, sans-serif;
+}
+h3{
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', Arial, sans-serif;
+}
