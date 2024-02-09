@@ -1,0 +1,98 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.product{
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.the-img{
+  width: 1250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.content{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name{
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+.pre{
+  letter-spacing: 7px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+.price-strikethrough{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: line-through;
+  margin-right: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.product-prices{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  margin-top: -5px;
+}
+.add-to-cart-button{
+  display: flex;
+  align-items: center;
+  padding: 13px 40px;
+  background-color: hsl(158, 36%, 37%);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-top: -20px;
+  text-align: center;
+}
+.the-button{
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.to-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.add-to-cart-button:hover{
+  background-color: hsl(158, 54%, 18%);
+}
